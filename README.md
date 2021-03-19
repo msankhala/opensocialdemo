@@ -3,14 +3,14 @@ This is a composer based installer for the [Open Social distribution](https://ww
 # Prerequisites
 
 1. [Composer](https://getcomposer.org/download/)
+2. [Docksal](https://docksal.io/)
 
 It's just composer, isn't it awesome? :)
 
-## Installation of Open Social
+## Installation
 
-```
-composer create-project goalgorilla/social_template:dev-master DIRECTORY --no-interaction
-```
+1. Clone this repo `git clone git@github.com:msankhala/opensocialdemo.git opensocialdemo; cd opensocialdemo;`
+2. Start the required containers to run the opensocial `fin start`
 
 Composer will create a new directory called DIRECTORY.
 The installed folders will contain all Drupal related files in the `html`
@@ -33,7 +33,7 @@ Checkout this [presentation](https://docs.google.com/presentation/d/1gxcxT6o47xV
 
 ### Open Social issues & Support
 For any issues with the platform we kindly ask you to use the [drupal.org](https://www.drupal.org/project/issues/social) issue queue.
-This way we can centralise all the information and make the feedback available 
+This way we can centralise all the information and make the feedback available
 for other users for documentation purposes. Next to giving people the credit they deserve.
 
 ### **Slack**
